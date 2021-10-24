@@ -13,9 +13,6 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image: url('https://miro.medium.com/max/1838/1*6fxYrwGwuVTiUA8rXaLp1g.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body {
@@ -24,9 +21,10 @@ body {
 }
 
 main {
-  background-image: url('/_img/background.svg');
-  width: 375px;
-  height: 812px;
+  background: url('/_img/background.svg') no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container {
@@ -92,4 +90,22 @@ ul {
   /*flex-direction: column; */
 
   justify-content: center;
+}
+
+@media (min-width: 630px) {
+  /* Versão tablet */
+
+  body {
+    background:hsla(240, 6%, 13%, 0.883);
+  }
+
+  main {
+    width: 358px;
+    height: 540px;
+  }
+  
+}
+
+@media (min-width: 960px) {
+  /* Versão desktop */
 }
