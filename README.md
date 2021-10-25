@@ -3,7 +3,7 @@
 ## Demonstração 📸
 
 <div align="center" >
-  <img src="_img/cracha-nlw.png" alt="Mentalista" width="500" height="350">
+  <img src="_img/cracha-nlw.png" alt="Mentalista" width="500" height="400">
 </div>
 
 ---
