@@ -92,6 +92,14 @@ ul {
   justify-content: center;
 }
 
+li {
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
 @media (min-width: 630px) {
   /* Versão tablet */
 
